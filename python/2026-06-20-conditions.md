@@ -5,7 +5,7 @@
 
 ## 오늘 배운 것
 ✅ if / elif / else 조건문
-
+```
 score =95
 
 if score >= 90:
@@ -16,9 +16,9 @@ elif score >= 70:
 	print("C")
 else:
 	print("F")
-
+```
 ✅ and, or, not 논리 연산자
-
+```
 speed = 15
 fuel = 30
 
@@ -30,11 +30,11 @@ if speed > 20 or fuel < 10:
 
 if not speed > 20:
 	print("속도 정상 범위")
-
+```
 ✅ input()으로 사용자 입력 받기
 
 ✅ int()로 문자열을 숫자로 변환
-
+```
 days = int(input("전역까지 남은 날:"))
 
 if days >= 20:
@@ -48,7 +48,7 @@ elif days > 0:
 	
 else:
 	print("전역!")
-
+```
 ## 헷갈렸던 점
 ⚠️ int days → Python은 자료형 안 써도 됨 (days = 29)
 → C# 문법이랑 헷갈림 주의
